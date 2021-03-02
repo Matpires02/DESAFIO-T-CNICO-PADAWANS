@@ -1,0 +1,28 @@
+.btn {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn i{
+  margin-right: 10px;
+}
